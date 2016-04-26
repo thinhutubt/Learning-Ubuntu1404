@@ -1,0 +1,9 @@
+#Scan địa chỉ IP trong Ubuntu
+
+- Cài đặt phần mềm:
+	 sudo apt-get install nmap
+- Scan IP: 
+	sudo nmap -sP 192.168.1.1-254
+(Thay đổi địa chỉ 192.168.1.1 cho phù hợp với địa chỉ mạng đang sử dụng).
+
+#Tham khảo tại: http://itswapshop.com/articles/top-3-ip-scanners-linux
